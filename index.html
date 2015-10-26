@@ -11,6 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 
@@ -20,8 +22,25 @@
 </head>
 
 <body>
-    
-    <div id="menu-toggle"></div>
+
+    <!--    <div id="menu-toggle"></div>-->
+    <a id="top"></a>
+
+    <input type="radio" id="open" name="popup">
+    <input type="radio" id="close" name="popup">
+    <label id="menu-toggle" for="open"></label>
+    <nav id="hidden-nav">
+        <ul id="nav-items">
+            <li><a href="#top" class="smoothScroll">top</a></li>
+            <li><a href="#overview" class="smoothScroll">overview</a></li>
+            <li><a href="#media-queries" class="smoothScroll">what are media queries?</a></li>
+            <li><a href="#rhetorical-reframe" class="smoothScroll">the rhetorical reframe</a></li>
+            <li><a href="#history-lesson" class="smoothScroll">a brief history lesson</a></li>
+            <li><a href="#big-deal" class="smoothScroll">so what's the big deal?</a></li>
+            <li><a href="#footer" class="smoothScroll">more info</a></li>
+        </ul>
+        <label id="close" for="close"></label>
+    </nav>
 
     <section id="intro">
         <div id="intro-item">
@@ -46,15 +65,15 @@
             </div>
         </div>
     </section>
-    <!--    <a id="overview-link"></a>-->
-    <section class="topic" id="overview">
-        <div class="callout">
-            <div class="content">
-                The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must “accept the ebb and flow of things.”
-                <br>
-                <br><span class="name">–John Allsopp, 2000</span>
-            </div>
+    <div class="callout">
+        <div class="content">
+            The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must “accept the ebb and flow of things.”
+            <br>
+            <br><span class="name">–John Allsopp, 2000</span>
         </div>
+    </div>
+    <section class="topic" id="overview">
+
         <div class="content">
 
             <h2>overview</h2>
@@ -67,7 +86,7 @@
 
         </div>
     </section>
-    <section class="topic" id="what-are-media queries">
+    <section class="topic" id="media-queries">
         <div class="content">
             <h2>what are media queries?</h2>
 
@@ -102,7 +121,7 @@
             <p>Haas' main statement is that: there is a divided concept of technology in the workplace, there are many different forms of technologies in effect in the workplace, and "advanced" technologies are not necessarily the most powerful ones. Haas draws on the ideas of contingency and constraint from Bijker's theory of sociotechnical change to understand the both constant and changing nature of technology as it related to different societal viewpoints.</p>
         </div>
     </section>
-    <section class="topic" id="So What's The Big Deal?">
+    <section class="topic" id="big-deal">
         <div class="content">
 
             <h2>so what's the big deal?</h2>
@@ -114,7 +133,7 @@
             <p>Haas' main statement is that: there is a divided concept of technology in the workplace, there are many different forms of technologies in effect in the workplace, and "advanced" technologies are not necessarily the most powerful ones. Haas draws on the ideas of contingency and constraint from Bijker's theory of sociotechnical change to understand the both constant and changing nature of technology as it related to different societal viewpoints.</p>
         </div>
     </section>
-    <footer>
+    <footer id="footer">
     </footer>
 </body>
 
