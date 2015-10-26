@@ -211,6 +211,7 @@ footer {
     text-align: center;
 }
 
+/*
 #menu-toggle i {
     height: 0;
     width: 0;
@@ -222,6 +223,7 @@ footer {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
+*/
 
 
 /*
@@ -282,7 +284,7 @@ footer {
 }
 
 #nav-items li {
-    padding: 1em 0;
+    padding: .5em 0;
 }
 
 #nav-items a {
