@@ -53,7 +53,7 @@ a:hover {
 }
 
 .content p {
-/*    text-align: justify;*/
+    /*    text-align: justify;*/
 }
 
 .callout {
@@ -65,7 +65,7 @@ a:hover {
 
 #intro {
     height: 100vh;
-    min-height: 800px;
+    min-height: 660px;
     background: #FFF;
 }
 
@@ -100,10 +100,14 @@ section:nth-child(2n) {
 }
 
 footer {
-    height: 20em;
+    color: #FFF;
     background: #019875;
 }
 
+#works-cited {
+    list-style-type: none;
+    padding: 0;
+}
 
 /*=====IPHONE MOCKUP=====*/
 
@@ -210,6 +214,7 @@ footer {
     z-index: 100;
     text-align: center;
 }
+
 
 /*
 #menu-toggle i {
