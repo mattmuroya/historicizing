@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Reframing Responsive Design</title>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/bigfoot-default.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -31,6 +31,7 @@
 <body>
 
     <a id="top"></a>
+
 
     <input type="radio" id="open" name="popup">
     <input type="radio" id="close" name="popup">
@@ -86,7 +87,7 @@
 
             <p>IN PROG</p>
 
-            <!--
+
             <p>“Hey! I saw this really great article on this website—you should go look it up!”</p>
 
             <p>Just about a decade ago, a statement like this would have meant one thing: you tell a friend to go look something up on the web, and they (Yes, I’m using “they” as a singular, gender-neutral pronoun. If it was good enough for Shakespeare, it’s good enough for me!) go home to look it up on their desktop or laptop computer. Though there certainly may have been some variation in exact screen dimensions, everyone’s window into the internet looked pretty much the same: an approximately 16x9 aspect ratio (or, becomingly less common, 4x3) with width and height somewhere around 1400 and 800 pixels respectively. This was the standard, and web content was written and designed with the desktop in mind. Occasionally you’d get higher resolution monitors, but these generally didn’t change your browsing experience other than to afford you more screen space for more on-screen applications.</p>
@@ -102,7 +103,7 @@
             <p>In print, the designer is God. Print designers have full control over the layout and presentation of their page; they can be 100% certain that they way they see their printed designs is the way the reader will see it as well. This might be considered an advantage of print <em>or</em> a severe limitation. In the early days of the web, designers wanted to be sure that their sites were being seen as designed. The web tried to emulate the printed page in every aspect; layout and design alike.</p>
 
             <p>I attend the University of Minnesota where I am privileged to have studied under several prestigious instructors, among whom is Professor Christina Haas; a well-established and respected scholar in the field of rhetorical theory, writing and technology. Her work grounded in Vygotskian theory and articulated through Bijkerian concepts on the relationships between old and new technologies and the transformative integration of computer tools in writing is foundational to the discipline, and I intend to build from her writings <em>On the Relationship Between Old and New Technologies</em> (1999) and <em>Writing Technology: Studies on the Materiality of Literacy</em> (1996) a theoretical framework by which to examine the historical progression of web publishing, responsive design, and CSS media queries.</p>
--->
+
 
         </div>
     </section>
@@ -198,26 +199,11 @@
 
                     <p><a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">Feedback on Media Queries CR | Email Thread, July 2002</a></p>
 
-                    <!--
-                    <code>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0097.html<br>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0096.html<br>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0095.html<br>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0094.html<br>                                       http://lists.w3.org/Archives/Public/www-style/2002Jul/0088.html<br>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0087.html<br>
-                        http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html<br>
-            </code>
--->
+
 
                     <p> From the get-go, Lie recognized the problem posed by the new (though limited at the time) advent of mobile web browsers:</p>
 
                     <blockquote>"The introduction of mobile web devices with smaller screens poses a presentation problem. The two-dimensional table-based layout of a common web page does not scale well onto a smaller screen. Using Media Queries, the style sheet can use a table-based layout on a large screen, and a block-based layout on a small screen. The content will be the same, but a few lines in the style sheet will be different, and the right one will automatically be selected."</blockquote>
-
-<!--
-                    <p>Shortly after Lie's recommendation was published, Art Barstow of the W3C sent <a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">an email message</a> to Lie questioning his proposal in the shadow of <a href="http://www.w3.org/TR/2001/WD-CCPP-struct-vocab-20010315/">another working draft W3C proposal</a>, CC/PP (Composite Capabilities/Preference Profiles), server-side technology that addressed similar issues of device uncertainty. Barstow also inquired about device-specific documents, citing the "important design principle" of device independence. Lie replied:</p>
-
-                    <blockquote>"...the work on Media Queries is continued from HTML4 where section 6.13 sketches a solution [1] very close to Media Queries. So, the "solution" was developed before the work on CC/PP started and should not be interpreted as hostile to CC/PP... Media queries encourages *documents* to remain device independent, while the *style sheet* is not. This way, the style sheets shield documents and encourage content reuse."</blockquote>
--->
 
                     <p>Shortly after Lie's recommendation was published, email messages from George Lund and Lachlan Cannon regarding the practicality and real-world implementation of media queries. Skeptical of the value of media queries in the presence of JavaScript and media types that addressed similar issues, they were critial of a new recommendation. Lend even acknowledged "...authors'... (misguided) attempts at pixel-perfect control in CSS" and said that media queries wouldn't solve the issue of the designers' desire for control.</p>
                     <p>Lie simply reiterated his commitment to reusable, device-independent HTML content:</p>
@@ -243,13 +229,13 @@
         <div class="content">
 
             <h2>putting it all together</h2>
-            
-            <p>Using Vygotsky's historical-genetic method of examination, we can map the development of media queries and—consequently—responsive design as a whole onto Haas' expansion of the Bijkerian concepts of contingency and constraint. Lie recognized the importance of device-independent HTML, and developed the idea of media-specific style sheets as a way to afford designers the control afforded to them in the print medium while also addressing the issue of device uncertainty and the rising of mobile web browsers.</p> 
+
+            <p>Using Vygotsky's historical-genetic method of examination, we can map the development of media queries and—consequently—responsive design as a whole onto Haas' expansion of the Bijkerian concepts of contingency and constraint. Lie recognized the importance of device-independent HTML, and developed the idea of media-specific style sheets as a way to afford designers the control afforded to them in the print medium while also addressing the issue of device uncertainty and the rising of mobile web browsers.</p>
 
             <p>We have to see the web and website design as "the product of social constructs and human design decisions" (Haas), and media queries are an explicit example of such. The Lie proposal for CSS all the way back in 1994 illustrates some of the tangible concerns in web design and publishing, noting the need to be able to adjust to the user, and for the publisher/writer to be able to leverage the capabilities of the web in such a way that he has some semblance of control. Lie's statment "I believe a declarative solution is better than an imperative solution" embodies the idea that technological change is not a linear progression of tools, but that it is contingent upon human design decisions and the social and cultural context of the time.</p>
 
             <p>There are many different browsers and models of mobile devices out there; the writer can no longer design for a standardized set of screens. Media queries and responsive design are a response to the changing landscape of devices to address issues of accessibility and new demographics; they are implemented because writers and designers now realize that while the web may have evolved from print, there are certain characteristics that are no longer impose constraints or limitations. They are an evolution. The web can live side by side with print, as old and new technologies must do.</p>
-            
+
             <p>But the mediational means by which users are interacting with and shaping the web are changing, and our practices of web design and implementation of tools like media queries are necessary components to sociotechnical change.</p>
 
         </div>
@@ -258,7 +244,7 @@
     <footer id="footer">
         <div class="content">
             <h2>more on media queries</h2>
-            <p>and other stuff written by people much smarter than me (I will format properly cite/add to these later. im just lazy rn tbh)</p>
+            <p>and other stuff written by people much smarter than me</p>
             <ul id="works-cited">
                 <li>http://www.w3.org/People/howcome/p/cascade.html</li>
                 <li>https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/use-media-queries?hl=en</li>

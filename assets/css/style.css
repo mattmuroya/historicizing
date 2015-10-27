@@ -116,7 +116,12 @@ footer {
 
 #works-cited {
     list-style-type: none;
-    padding: 0;
+    word-wrap: break-word;
+    padding-bottom: 0;
+}
+
+#works-cited li {
+    padding: 1em;
 }
 
 /*=====IPHONE MOCKUP=====*/
