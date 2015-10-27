@@ -271,7 +271,8 @@ footer {
     top: 0;
     right: -50%;
     height: 100%;
-    width: 50%;
+    width: 70%;
+    max-width: 20em;
     padding: 2em;
     opacity: 0;
         overflow: hidden;
