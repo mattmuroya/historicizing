@@ -73,6 +73,10 @@ a:hover {
     background: #019875;
 }
 
+.full-width {
+    width: 100%;
+}
+
 #intro {
     height: 100vh;
     min-height: 660px;
