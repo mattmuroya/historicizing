@@ -43,7 +43,7 @@
             <li><a href="#media-queries" class="smoothScroll">Enter: Media Queries</a></li>
             <li><a href="#rhetorical-reframe" class="smoothScroll">Cultural Influence on Design Evolution</a></li>
             <li><a href="#history-lesson" class="smoothScroll">Historical Contentions: Media Queries Reborn</a></li>
-            <li><a href="#put-together" class="smoothScroll">Media Queries: Children of Necessity</a></li>
+            <li><a href="#put-together" class="smoothScroll">Media Queries: Ideated of Necessity, Born of Calculation</a></li>
             <li><a href="#footer" class="smoothScroll">More Info</a></li>
         </ul>
         <label id="close-toggle" for="close"></label>
@@ -91,7 +91,8 @@
 
             <p>But today, the first thing people will reach for is much, much smaller than any of those. It’s the technological wonder that fits in your back pocket: your smartphone.</p>
 
-            <p>There are a lot of smartphones out there. In fact, more than 90% of Americans own a cell phone; and of those, nearly two-thirds use their phones to access the internet<a href="#fn:1"></a>. That’s a lot of internet-ready pocket devices. There are hundreds and hundreds of different devices that people are using to access the internet. Screen sizes, dimensions, and ratios are unpredictable. And therein lies the problem: no longer can web designers be sure that their websites and content are going to look like they do on their computers; users are coming to the web from unpredictable angles and with unpredictable windows.</p>
+            <p>There are a lot of smartphones out there. In fact, more than 90% of Americans own a cell phone; and of those, nearly two-thirds use their phones to access the internet
+                <a href="#fn:1"></a>. That’s a lot of internet-ready pocket devices. There are hundreds and hundreds of different devices that people are using to access the internet. Screen sizes, dimensions, and ratios are unpredictable. And therein lies the problem: no longer can web designers be sure that their websites and content are going to look like they do on their computers; users are coming to the web from unpredictable angles and with unpredictable windows.</p>
 
             <p>In print, the designer is God. Print designers have full control over the layout and presentation of their page; they can be 100% certain that they way they see their printed designs is the way the reader will see it as well. This might be considered an advantage of print <em>or</em> a severe limitation. In the early days of the web, designers wanted to be sure that their sites were being seen as designed. The web tried to emulate the printed page in every aspect; layout and design alike.</p>
 
@@ -104,12 +105,13 @@
         <div class="content">
             <h2>Enter: Media Queries</h2>
 
-            <p>The response to this notable shift in the web design community has been a recent development termed Responsive Web Design (RWD): the implementation of new front-end web technologies designed to accommodate the non-standardized grab bag selection of devices out there<a href="#fn:4"></a>. RWD throws pixel-perfect design and control out the window in favor of adaptable, fluid web content that fits whatever screen it graces. The practice comprises many different technologies, but heart of RWD is a technology called a media query.</p>
+            <p>The response to this notable shift in the web design community has been a recent development termed Responsive Web Design (RWD): the implementation of new front-end web technologies designed to accommodate the non-standardized grab bag selection of devices out there
+                <a href="#fn:4"></a>. RWD throws pixel-perfect design and control out the window in favor of adaptable, fluid web content that fits whatever screen it graces. The practice comprises many different technologies, but heart of RWD is a technology called a media query.</p>
 
             <p>Media queries are a CSS rule officially included in CSS3. They are a way for the designer to structure content and web pages to "ask" browsers certain details when they are fetched, particularly the size of the screen and/or browser window. They are a tool used to conditionally load rules (primarily certain CSS rules; sometimes entire files) based on the return values. This way, a way a page and its content is displayed is optimized to the device. Media queries may also be used to define certain "breakpoint" widths at which content will reflow across the screen to optimize visual hierarchy for different device screen sizes.</p>
-            
+
             <img class="full-width" src="assets/images/rwd.gif">
-            
+
         </div>
     </section>
 
@@ -145,22 +147,24 @@
             <blockquote>What I sense is a real tension between the web as we know it, and the web as it would be. It’s the tension between an existing medium, the printed page, and its child, the web. And it’s time to really understand the relationship between the parent and the child, and to let the child go its own way in the world. –John Allsopp</blockquote>
 
             <p>CSS media queries, now denoted by an <code>@media</code> rule in our CSS stylesheets, have a winding history in this course of sociotechnical change. The idea first came about in 1994 with the initial proposal for CSS stylesheets. It was considered and contested for nearly two decades before its implementation with CSS3 in 2012.</p>
-            
-            <p>Håkon W Lie | Cascading HTML style sheets—a proposal <a href="#fn:5"></a></p>
 
-                    <p>One of the very first documents that proposed the idea of cascading style sheets, this proposal written by Håkon W Lie of Opera was actually quite heavily skewed toward the idea that would one day become "media queries," although the proposal doesn't use this term; Lie says that these style sheets should be able to "provide logic to make presentation decisions based on the user's environment; e.g. the size of the screen or the current date." This document laid out the idea of CSS styles: writing rules in such a way that the publisher has some leverage over his content's presentation; but where the user still has some sense of control. It is a direct response to a growing issue; Lie explains early in the proposal that the lack of control of presentation had been a "source of much frustration among professions that are used to be in control of paper-based publishing."</p>
+            <h3>Håkon W Lie | Cascading HTML style sheets—a proposal <a href="#fn:5"></a></h3>
 
-                    <p>Though much of the proposal is unspecific to the idea of media queries or responsive content presentation, he says in a section titled "Limitations" that "there should be a way of adding and subtracting style sheets from within the document." This is a very tangible concern that Lie recognized: not all styles written by the designer would optimally suit all screens or users. The limitations of print no longer applied, and Lie sought to break such constraints with what would become the foundation of responsive design.</p>
+            <p>One of the very first documents that proposed the idea of cascading style sheets, this proposal written by Håkon W Lie of Opera was actually quite heavily skewed toward the idea that would one day become "media queries" as we know them, although the proposal doesn't use this term. Lie saied that these style sheets should be able to "provide logic to make presentation decisions based on the user's environment; e.g. the size of the screen or the current date." This document laid out the idea of CSS styles: writing rules in such a way that the publisher has some leverage over his content's presentation; but where the user still has some sense of control. It is a direct response to a growing issue; Lie explains early in the proposal that the lack of control of presentation had been a "source of much frustration among professions that are used to be in control of paper-based publishing."</p>
 
-                    <p>W3C | Media Type Dependencies: CSS2 Specification, 12 May 1998<a href="#fn:6"></a></p>
+            <p>Though much of the proposal is unspecific to the idea of media queries or responsive content presentation, Lie says in a section titled "Limitations" that "there should be a way of adding and subtracting style sheets from within the document." This is a very tangible concern that he recognized: not all styles written by the designer would optimally suit all screens or users. The limitations of print no longer applied, and Lie sought to break such constraints with what would become the foundation of responsive design.</p>
 
-                    <p>CSS2 introduced media-specific stylesheets that allowed for the selective loading of cascading styles based on the <strong>media type</strong> of the receiving device; this meant that styles could be altered according to how content was being displayed: "on the screen, on paper, with a speech synthesizer, with a braille device, etc."</p>
+            <p>This clearly outlines the exigence that Lie recognized as a result of the state of technology as it related to visual communications practices. It illustrates Bijker's contingency concept in that there was a clear need for an evolutionary tool that would adapt to new electronic information distribution mediums and the affordances of the web, but there was no single clear solution. This proposal was his first attempt at addressing this disturbance in the waters of current web design practices.</p>
 
-                    <blockquote>CSS2 supports media-specific style sheets so that authors may tailor the presentation of their documents to visual browsers, aural devices, printers, braille devices, handheld devices, etc.</blockquote>
+            <h3>W3C | Media Type Dependencies: CSS2 Specification, 12 May 1998 <a href="#fn:6"></a></h3>
 
-                    <p>The <code>@media</code> rule used to denote this media type-dependent loading was used as follows:</p>
-                    <blockquote>
-                        <code>
+            <p>CSS2 introduced media-specific stylesheets that allowed for the selective loading of cascading styles based on the <strong>media type</strong> of the receiving device; this meant that styles could be altered according to how content was being displayed: "on the screen, on paper, with a speech synthesizer, with a braille device, etc."</p>
+
+            <blockquote>CSS2 supports media-specific style sheets so that authors may tailor the presentation of their documents to visual browsers, aural devices, printers, braille devices, handheld devices, etc.</blockquote>
+
+            <p>The <code>@media</code> rule used to denote this media type-dependent loading was used as follows:</p>
+            <blockquote>
+                <code>
                         @media print {<br>
                         <span class="indent">BODY { font-size: 10pt }</span><br>
                         }<br><br>
@@ -173,39 +177,39 @@
                         <span class="indent">BODY { line-height: 1.2 }</span><br>
                         }
                 </code>
-                    </blockquote>
+            </blockquote>
 
-                    <p>The inclusion of media types and media-dependent styles indeed addressed the different types of devices that would be used to display content, but Lie wasn't satisfied. Developers had no tools to limit the scope of styles within a particular type, and therefore media types did not solve the problem of adding and subtracting specific styles from documents. Along with Tantek Çelik of Microsoft, Lie set out officially recommend <strong>media queries</strong> as we know them today.</p>
+            <p>The inclusion of media types and media-dependent styles indeed addressed the different types of devices that would be used to display content, but Lie wasn't satisfied. Developers had no tools to limit the scope of styles within a particular type, and therefore media types did not solve the problem of adding and subtracting specific styles from documents.</p>
+            
+            <p>With the growing ecology of devices and screen sizes, media queries as they stood weren't going to cut it. Along with Tantek Çelik of Microsoft, Lie set out officially recommend <strong>media queries</strong> as we know them today.</p>
 
-                    <p>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 8 July 2002<a href="#fn:7"></a></p>
+            <h3>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 8 July 2002 <a href="#fn:7"></a></h3>
 
-                    <p>Lie began a <a href="http://www.w3.org/TR/2001/WD-css3-mediaqueries-20010404/">working draft</a> of his proposal in 2001, and officially submitted it in July of 2002. He says of his proposal:</p>
-                    <blockquote>HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "Screen" and "print" are two of media types that have been defined. Media Queries extend the functionality of media types by allowing more precise labeling of style sheets.
-                        <br>
-                        <br>A Media Query consists of a media type and one or more expressions to limit the scope of style sheets. Among the media features that can be used in media queries are "width", "height", and "color". By using Media Queries, presentations can be tailored to a specific range of output devices without changing the content itself.</blockquote>
+            <p>Lie began a <a href="http://www.w3.org/TR/2001/WD-css3-mediaqueries-20010404/">working draft</a> of his proposal in 2001, and officially submitted it in July of 2002. He says of his proposal:</p>
+            <blockquote>HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "Screen" and "print" are two of media types that have been defined. Media Queries extend the functionality of media types by allowing more precise labeling of style sheets.
+                <br>
+                <br>A Media Query consists of a media type and one or more expressions to limit the scope of style sheets. Among the media features that can be used in media queries are "width", "height", and "color". By using Media Queries, presentations can be tailored to a specific range of output devices without changing the content itself.</blockquote>
 
-                    <p>Media queries would determine a device's <em>capabilities</em>, rather than just its type. Device and browser width, heigh, aspect ratio, and color/monochrome displays could all be considered in restricting or augmenting certain styles to optimize static, reusable HTML content.</p>
+            <p>Media queries would determine a device's <em>capabilities</em>, rather than just its type. Device and browser width, heigh, aspect ratio, and color/monochrome displays could all be considered in restricting or augmenting certain styles to optimize static, reusable HTML content.</p>
 
-                    <p>Lie's proposals became a point of contention and subject of some critical eyes.</p>
-
-
-                    <p>Feedback on Media Queries CR | Email Thread, July 2002<a href="#fn:8"></a></p>
-
+            <p>Lie's proposals became a point of contention and subject of some critical eyes.</p>
 
 
-                    <p> From the get-go, Lie recognized the problem posed by the new (though limited at the time) advent of mobile web browsers:</p>
+            <h3>Feedback on Media Queries CR | Email Thread, July 2002 <a href="#fn:8"></a></h3>
 
-                    <blockquote>The introduction of mobile web devices with smaller screens poses a presentation problem. The two-dimensional table-based layout of a common web page does not scale well onto a smaller screen. Using Media Queries, the style sheet can use a table-based layout on a large screen, and a block-based layout on a small screen. The content will be the same, but a few lines in the style sheet will be different, and the right one will automatically be selected.</blockquote>
+            <p> From the get-go, Lie recognized the problem posed by the new (though limited at the time) advent of mobile web browsers:</p>
 
-                    <p>Shortly after Lie's recommendation was published, email messages from George Lund and Lachlan Cannon regarding the practicality and real-world implementation of media queries. Skeptical of the value of media queries in the presence of JavaScript and media types that addressed similar issues, they were critical of a new recommendation. Lend even acknowledged "...authors'... (misguided) attempts at pixel-perfect control in CSS" and said that media queries wouldn't solve the issue of the designers' desire for control.</p>
-                    <p>Lie simply reiterated his commitment to reusable, device-independent HTML content:</p>
+            <blockquote>The introduction of mobile web devices with smaller screens poses a presentation problem. The two-dimensional table-based layout of a common web page does not scale well onto a smaller screen. Using Media Queries, the style sheet can use a table-based layout on a large screen, and a block-based layout on a small screen. The content will be the same, but a few lines in the style sheet will be different, and the right one will automatically be selected.</blockquote>
 
-                    <blockquote>In general, I believe a declarative solution is better than an imperative solution.... I see the horrors of 'dynamic HTML' on the web everyday and don't want to condemn authors into [JavaScript] for wanting to reuse content on many devices.</blockquote>
+            <p>Shortly after Lie's recommendation was published, email messages from George Lund and Lachlan Cannon regarding the practicality and real-world implementation of media queries. Skeptical of the value of media queries in the presence of JavaScript and media types that addressed similar issues, they were critical of a new recommendation. Lend even acknowledged "...authors'... (misguided) attempts at pixel-perfect control in CSS" and said that media queries wouldn't solve the issue of the designers' desire for control. This illustrates one of the difficulties that inherently exist in the course of sociotechnical change: there is no singular, clear answer or objective path for technological advancement. Rather, change is often contingent upon human design decisions and can be widely contested and disputed among pioneers with different backgrounds, knowledge, skill sets and values. Lie clearly recognized this, however, and simply reiterated his commitment to reusable, device-independent HTML content:</p>
 
+            <blockquote>In general, I believe a declarative solution is better than an imperative solution.... I see the horrors of "dynamic HTML" on the web everyday and don't want to condemn authors into [JavaScript] for wanting to reuse content on many devices.</blockquote>
+            
+            <p>Here, Lie suggests the importance of developing solutions for the sake of adherence to social norms and practices for evolution, rather than out of necessity. He values the subjective nature of contingent design decisions and seizes the opportunity to address a problem before it becomes a technological constraint in and of itself.</p>
 
-                    <p>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 19 June 2012<a href="#fn:9"></a></p>
+            <h3>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 19 June 2012 <a href="#fn:9"></a></h3>
 
-                    <p>After wrestling with contingency, constraints, and a good deal of contention, the official recommendation was published in 2012. In 2007, the W3C deemed media queries operable and implementable, and after five years, they were included with CSS3.</p>
+            <p>After wrestling with contingency, constraints, and a good deal of contention, the official recommendation was published in 2012. In 2007, the W3C deemed media queries operable and implementable, and after five years, they were included with CSS3.</p>
 
         </div>
     </section>
@@ -220,11 +224,11 @@
         </div>
         <div class="content">
 
-            <h2>Media Queries: Children of Necessity</h2>
+            <h2>Media Queries: Ideated of Necessity, Born of Calculation</h2>
 
             <p>Using Vygotsky's historical-genetic method of examination, we can map the development of media queries and—consequently—responsive design as a whole onto Haas' expansion of the Bijkerian concepts of contingency and constraint. Lie recognized the importance of device-independent HTML, and developed the idea of media-specific style sheets as a way to afford designers the control afforded to them in the print medium while also addressing the issue of device uncertainty and the rising of mobile web browsers.</p>
 
-            <p>We have to see the web and website design as "the product of social constructs and human design decisions" (Haas), and media queries are an explicit example of such. The Lie proposal for CSS all the way back in 1994 illustrates some of the tangible concerns in web design and publishing, noting the need to be able to adjust to the user, and for the publisher/writer to be able to leverage the capabilities of the web in such a way that he has some semblance of control. Lie's statement "I believe a declarative solution is better than an imperative solution" embodies the idea that technological change is not a linear progression of tools, but that it is contingent upon human design decisions and the social and cultural context of the time.</p>
+            <p>We have to see the web and website design as "the product of social constructs and human design decisions" (Haas), and media queries are an explicit example of just that. The Lie proposal for CSS all the way back in 1994 illustrates some of the tangible concerns in web design and publishing, noting the need to be able to adjust to the user, and for the publisher/writer to be able to leverage the capabilities of the web in such a way that he has some semblance of control. Lie's statement "I believe a declarative solution is better than an imperative solution" embodies the idea that technological change is not a linear progression of tools, but that it is contingent upon human design decisions and the social and cultural context of the time.</p>
 
             <p>There are many different browsers and models of mobile devices out there; the writer can no longer design for a standardized set of screens. Media queries and responsive design are a response to the changing landscape of devices to address issues of accessibility and new demographics; they are implemented because writers and designers now realize that while the web may have evolved from print, there are certain characteristics that are no longer impose constraints or limitations. They are an evolution. The web can live side by side with print, as old and new technologies must do.</p>
 
@@ -267,19 +271,19 @@
             <li class="footnote" id="fn:5">
                 <p><a href="http://www.w3.org/People/howcome/p/cascade.html">See the original</a></p>
             </li>
-             <li class="footnote" id="fn:6">
+            <li class="footnote" id="fn:6">
                 <p><a href="http://www.w3.org/TR/REC-CSS2/media.html">See the original</a></p>
             </li>
-             <li class="footnote" id="fn:7">
+            <li class="footnote" id="fn:7">
                 <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
             </li>
-             <li class="footnote" id="fn:8">
+            <li class="footnote" id="fn:8">
                 <p><a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">See the original</a></p>
             </li>
-             <li class="footnote" id="fn:9">
+            <li class="footnote" id="fn:9">
                 <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
             </li>
-            
+
         </ol>
     </div>
 
