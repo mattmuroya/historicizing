@@ -144,16 +144,15 @@
 
             <blockquote>What I sense is a real tension between the web as we know it, and the web as it would be. It’s the tension between an existing medium, the printed page, and its child, the web. And it’s time to really understand the relationship between the parent and the child, and to let the child go its own way in the world. –John Allsopp</blockquote>
 
-            <p>CSS media queries, now denoted by an <code>@media</code> rule in our CSS stylesheets, have a winding history in this course of sociotechnical change. The idea first came about in 1994 with the initial proposal for CSS stylesheets. It was considered and contested for nearly two decades before its implementation with CSS3 in 2012.
-                <p>
-
-                    <p><a href="http://www.w3.org/People/howcome/p/cascade.html">Håkon W Lie | Cascading HTML style sheets—a proposal</a></p>
+            <p>CSS media queries, now denoted by an <code>@media</code> rule in our CSS stylesheets, have a winding history in this course of sociotechnical change. The idea first came about in 1994 with the initial proposal for CSS stylesheets. It was considered and contested for nearly two decades before its implementation with CSS3 in 2012.</p>
+            
+            <p>Håkon W Lie | Cascading HTML style sheets—a proposal <a href="#fn:5"></a></p>
 
                     <p>One of the very first documents that proposed the idea of cascading style sheets, this proposal written by Håkon W Lie of Opera was actually quite heavily skewed toward the idea that would one day become "media queries," although the proposal doesn't use this term; Lie says that these style sheets should be able to "provide logic to make presentation decisions based on the user's environment; e.g. the size of the screen or the current date." This document laid out the idea of CSS styles: writing rules in such a way that the publisher has some leverage over his content's presentation; but where the user still has some sense of control. It is a direct response to a growing issue; Lie explains early in the proposal that the lack of control of presentation had been a "source of much frustration among professions that are used to be in control of paper-based publishing."</p>
 
                     <p>Though much of the proposal is unspecific to the idea of media queries or responsive content presentation, he says in a section titled "Limitations" that "there should be a way of adding and subtracting style sheets from within the document." This is a very tangible concern that Lie recognized: not all styles written by the designer would optimally suit all screens or users. The limitations of print no longer applied, and Lie sought to break such constraints with what would become the foundation of responsive design.</p>
 
-                    <p><a href="http://www.w3.org/TR/REC-CSS2/media.html">W3C | Media Type Dependencies: CSS2 Specification, 12 May 1998</a></p>
+                    <p>W3C | Media Type Dependencies: CSS2 Specification, 12 May 1998<a href="#fn:6"></a></p>
 
                     <p>CSS2 introduced media-specific stylesheets that allowed for the selective loading of cascading styles based on the <strong>media type</strong> of the receiving device; this meant that styles could be altered according to how content was being displayed: "on the screen, on paper, with a speech synthesizer, with a braille device, etc."</p>
 
@@ -178,7 +177,7 @@
 
                     <p>The inclusion of media types and media-dependent styles indeed addressed the different types of devices that would be used to display content, but Lie wasn't satisfied. Developers had no tools to limit the scope of styles within a particular type, and therefore media types did not solve the problem of adding and subtracting specific styles from documents. Along with Tantek Çelik of Microsoft, Lie set out officially recommend <strong>media queries</strong> as we know them today.</p>
 
-                    <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">Håkon W Lie | Media Queries: W3C Candidate Recommendation, 8 July 2002</a></p>
+                    <p>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 8 July 2002<a href="#fn:7"></a></p>
 
                     <p>Lie began a <a href="http://www.w3.org/TR/2001/WD-css3-mediaqueries-20010404/">working draft</a> of his proposal in 2001, and officially submitted it in July of 2002. He says of his proposal:</p>
                     <blockquote>HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "Screen" and "print" are two of media types that have been defined. Media Queries extend the functionality of media types by allowing more precise labeling of style sheets.
@@ -190,7 +189,7 @@
                     <p>Lie's proposals became a point of contention and subject of some critical eyes.</p>
 
 
-                    <p><a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">Feedback on Media Queries CR | Email Thread, July 2002</a></p>
+                    <p>Feedback on Media Queries CR | Email Thread, July 2002<a href="#fn:8"></a></p>
 
 
 
@@ -204,7 +203,7 @@
                     <blockquote>In general, I believe a declarative solution is better than an imperative solution.... I see the horrors of 'dynamic HTML' on the web everyday and don't want to condemn authors into [JavaScript] for wanting to reuse content on many devices.</blockquote>
 
 
-                    <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">Håkon W Lie | Media Queries: W3C Candidate Recommendation, 19 June 2012</a></p>
+                    <p>Håkon W Lie | Media Queries: W3C Candidate Recommendation, 19 June 2012<a href="#fn:9"></a></p>
 
                     <p>After wrestling with contingency, constraints, and a good deal of contention, the official recommendation was published in 2012. In 2007, the W3C deemed media queries operable and implementable, and after five years, they were included with CSS3.</p>
 
@@ -263,9 +262,24 @@
                 <p>See Bijker's <a href="https://mitpress.mit.edu/books/social-construction-technological-systems-0">book</a> on his theory.</p>
             </li>
             <li class="footnote" id="fn:4">
-                <p>There a <a href="">a lot</a> of different devices.</p>
+                <p>There a <a href="http://mydevice.io/devices/">a lot</a> of different devices.</p>
             </li>
-            http://mydevice.io/devices/
+            <li class="footnote" id="fn:5">
+                <p><a href="http://www.w3.org/People/howcome/p/cascade.html">See the original</a></p>
+            </li>
+             <li class="footnote" id="fn:6">
+                <p><a href="http://www.w3.org/TR/REC-CSS2/media.html">See the original</a></p>
+            </li>
+             <li class="footnote" id="fn:7">
+                <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
+            </li>
+             <li class="footnote" id="fn:8">
+                <p><a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">See the original</a></p>
+            </li>
+             <li class="footnote" id="fn:9">
+                <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
+            </li>
+            
         </ol>
     </div>
 
